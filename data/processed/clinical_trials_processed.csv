@@ -1,0 +1,11 @@
+nct_id,title,status,phase_numeric,condition_category,intervention_category,duration_months,enrollment,sponsor_category,success_indicator,time_to_completion,text_complexity_score,has_biomarker,patient_diversity_score
+NCT01234567,"Phase II Study of Immunotherapy in Advanced Melanoma",Completed,2,Melanoma,Immunotherapy,27.5,120,Industry,1,0.92,0.68,1,0.72
+NCT02345678,"Combination Therapy for Metastatic Breast Cancer",Completed,3,Breast Cancer,Combination,45.0,350,Industry,1,1.05,0.75,0,0.81
+NCT03456789,"Novel Targeted Therapy for Non-Small Cell Lung Cancer",Active,2,Lung Cancer,Targeted,51.7,200,Government,0,0.88,0.82,1,0.65
+NCT04567890,"Immunotherapy vs Standard Care in Colorectal Cancer",Recruiting,3,Colorectal Cancer,Immunotherapy,53.5,400,Industry,0,0.00,0.71,1,0.79
+NCT05678901,"Precision Medicine Approach for Pancreatic Cancer",Not yet recruiting,1.5,Pancreatic Cancer,Targeted,36.0,80,Other,0,0.00,0.85,1,0.58
+NCT06789012,"Radiotherapy Optimization for Prostate Cancer",Completed,2,Prostate Cancer,Radiation,35.8,150,Academic,1,0.97,0.63,0,0.76
+NCT07890123,"Novel Biomarker Study in Ovarian Cancer",Active,1,Ovarian Cancer,Biomarker,28.0,45,Industry,0,0.75,0.91,1,0.62
+NCT08901234,"CAR-T Cell Therapy for Refractory Lymphoma",Recruiting,2,Lymphoma,Cellular,42.7,100,Government,0,0.00,0.88,1,0.70
+NCT09012345,"Neoadjuvant Therapy for Gastric Cancer",Completed,3,Gastric Cancer,Neoadjuvant,62.3,280,Industry,1,1.10,0.72,0,0.68
+NCT00123456,"Maintenance Therapy in Glioblastoma",Active,2.5,Glioblastoma,Maintenance,39.0,220,Academic,0,0.82,0.77,1,0.64
