@@ -1,0 +1,11 @@
+nct_id,title,status,phase,condition,intervention_type,start_date,completion_date,enrollment,sponsor_type
+NCT01234567,"Phase II Study of Immunotherapy in Advanced Melanoma",Completed,Phase 2,Melanoma,Drug,2018-03-15,2020-06-30,120,Industry
+NCT02345678,"Combination Therapy for Metastatic Breast Cancer",Completed,Phase 3,Breast Cancer,Drug,2017-05-20,2021-02-15,350,Industry
+NCT03456789,"Novel Targeted Therapy for Non-Small Cell Lung Cancer",Active,Phase 2,Lung Cancer,Drug,2019-09-10,2023-12-31,200,NIH
+NCT04567890,"Immunotherapy vs Standard Care in Colorectal Cancer",Recruiting,Phase 3,Colorectal Cancer,Biological,2020-01-15,2024-06-30,400,Industry
+NCT05678901,"Precision Medicine Approach for Pancreatic Cancer",Not yet recruiting,Phase 1|Phase 2,Pancreatic Cancer,Drug,2022-03-01,2025-03-01,80,Other
+NCT06789012,"Radiotherapy Optimization for Prostate Cancer",Completed,Phase 2,Prostate Cancer,Radiation,2016-11-05,2019-10-30,150,Academic
+NCT07890123,"Novel Biomarker Study in Ovarian Cancer",Active,Phase 1,Ovarian Cancer,Other,2021-04-20,2023-08-15,45,Industry
+NCT08901234,"CAR-T Cell Therapy for Refractory Lymphoma",Recruiting,Phase 2,Lymphoma,Biological,2020-07-12,2024-01-31,100,NIH
+NCT09012345,"Neoadjuvant Therapy for Gastric Cancer",Completed,Phase 3,Gastric Cancer,Drug,2015-09-22,2020-11-30,280,Industry
+NCT00123456,"Maintenance Therapy in Glioblastoma",Active,Phase 2|Phase 3,Glioblastoma,Drug,2019-02-28,2023-05-31,220,Academic
