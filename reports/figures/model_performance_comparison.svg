@@ -1,0 +1,80 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Model Performance Comparison</text>
+  
+  <!-- Chart Area -->
+  <rect x="100" y="70" width="650" height="350" fill="white" stroke="#ddd" stroke-width="1" />
+  
+  <!-- Y-Axis -->
+  <line x1="100" y1="70" x2="100" y2="420" stroke="#333" stroke-width="2" />
+  <text x="50" y="245" font-family="Arial" font-size="14" text-anchor="middle" transform="rotate(-90, 50, 245)">Performance Score</text>
+  
+  <!-- Y-Axis Labels -->
+  <text x="95" y="420" font-family="Arial" font-size="12" text-anchor="end">0.0</text>
+  <text x="95" y="350" font-family="Arial" font-size="12" text-anchor="end">0.2</text>
+  <text x="95" y="280" font-family="Arial" font-size="12" text-anchor="end">0.4</text>
+  <text x="95" y="210" font-family="Arial" font-size="12" text-anchor="end">0.6</text>
+  <text x="95" y="140" font-family="Arial" font-size="12" text-anchor="end">0.8</text>
+  <text x="95" y="70" font-family="Arial" font-size="12" text-anchor="end">1.0</text>
+  
+  <!-- X-Axis -->
+  <line x1="100" y1="420" x2="750" y2="420" stroke="#333" stroke-width="2" />
+  <text x="425" y="450" font-family="Arial" font-size="14" text-anchor="middle">Model Types</text>
+  
+  <!-- Grid Lines -->
+  <line x1="100" y1="350" x2="750" y2="350" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="280" x2="750" y2="280" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="210" x2="750" y2="210" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="140" x2="750" y2="140" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Model Type Labels -->
+  <text x="175" y="435" font-family="Arial" font-size="12" text-anchor="middle">Logistic</text>
+  <text x="275" y="435" font-family="Arial" font-size="12" text-anchor="middle">Random Forest</text>
+  <text x="375" y="435" font-family="Arial" font-size="12" text-anchor="middle">XGBoost</text>
+  <text x="475" y="435" font-family="Arial" font-size="12" text-anchor="middle">LightGBM</text>
+  <text x="575" y="435" font-family="Arial" font-size="12" text-anchor="middle">Neural Net</text>
+  <text x="675" y="435" font-family="Arial" font-size="12" text-anchor="middle">Ensemble</text>
+  
+  <!-- Accuracy Bars -->
+  <rect x="140" y="280" width="20" height="140" fill="#4285f4" />
+  <rect x="240" y="210" width="20" height="210" fill="#4285f4" />
+  <rect x="340" y="170" width="20" height="250" fill="#4285f4" />
+  <rect x="440" y="180" width="20" height="240" fill="#4285f4" />
+  <rect x="540" y="200" width="20" height="220" fill="#4285f4" />
+  <rect x="640" y="140" width="20" height="280" fill="#4285f4" />
+  
+  <!-- AUC-ROC Bars -->
+  <rect x="165" y="260" width="20" height="160" fill="#ea4335" />
+  <rect x="265" y="190" width="20" height="230" fill="#ea4335" />
+  <rect x="365" y="150" width="20" height="270" fill="#ea4335" />
+  <rect x="465" y="160" width="20" height="260" fill="#ea4335" />
+  <rect x="565" y="180" width="20" height="240" fill="#ea4335" />
+  <rect x="665" y="120" width="20" height="300" fill="#ea4335" />
+  
+  <!-- F1-Score Bars -->
+  <rect x="190" y="270" width="20" height="150" fill="#fbbc05" />
+  <rect x="290" y="200" width="20" height="220" fill="#fbbc05" />
+  <rect x="390" y="160" width="20" height="260" fill="#fbbc05" />
+  <rect x="490" y="170" width="20" height="250" fill="#fbbc05" />
+  <rect x="590" y="190" width="20" height="230" fill="#fbbc05" />
+  <rect x="690" y="130" width="20" height="290" fill="#fbbc05" />
+  
+  <!-- Legend -->
+  <rect x="550" y="80" width="180" height="90" fill="white" stroke="#ddd" stroke-width="1" />
+  <text x="560" y="100" font-family="Arial" font-size="12" font-weight="bold">Metrics</text>
+  
+  <rect x="560" y="110" width="12" height="12" fill="#4285f4" />
+  <text x="580" y="120" font-family="Arial" font-size="11">Accuracy</text>
+  
+  <rect x="560" y="130" width="12" height="12" fill="#ea4335" />
+  <text x="580" y="140" font-family="Arial" font-size="11">AUC-ROC</text>
+  
+  <rect x="560" y="150" width="12" height="12" fill="#fbbc05" />
+  <text x="580" y="160" font-family="Arial" font-size="11">F1-Score</text>
+  
+  <!-- Annotations -->
+  <text x="400" y="490" font-family="Arial" font-size="12" text-anchor="middle" font-style="italic">Ensemble model shows best overall performance across all metrics</text>
+</svg>
